@@ -1,4 +1,24 @@
-html {
-  height: 100%;
-  width: 100%;
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+nav{
+  margin: 24px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-name{
+  font-size: 24px;
+}
+
+ul{
+  display: inline;
+}
+
+ul li{
+  display: inline;
+  padding: 0 16px;
 }
